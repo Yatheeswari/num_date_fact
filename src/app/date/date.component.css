@@ -1,0 +1,27 @@
+.m-3{
+    margin:1rem;
+}
+.ml-2{
+    margin-left: 1rem;
+}
+.mrl-2{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width:600px){
+    .content{
+        display: block !important;
+    }
+    .button{
+        margin-top: 1rem;
+    }
+    .subtitle.is-4 {
+        font-size: 1rem;
+    }
+    .notification{
+        border-radius: 5px !important;
+        width: 100%;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}

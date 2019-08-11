@@ -1,0 +1,20 @@
+<div class="container ">
+    <div class="box m-3">
+        <h1 class="subtitle is-2 has-text-centered"> Number Fact </h1>
+        <article class="media mrl-2">
+
+            <div class="media-content">
+                <div class="content has-text-centered" style="display: flex">
+                    <input class="input is-rounded" type="text" placeholder="Enter Number" (input)="onEnter($event)">
+                    <a class="button is-danger is-rounded ml-2 " (click)="onFetch()">Fact</a>
+                </div>
+
+                <div class="notification " style="    border-radius: 4rem;height: fit-content">
+                        <h3 class="subtitle is-4 has-text-centered"> {{result}} </h3>
+                </div>
+
+                
+            </div>
+        </article>
+    </div>
+</div>
